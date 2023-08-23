@@ -7,40 +7,40 @@ A DApp to allow the user(host) to mint moments as NFT using the contracts deploy
 ## Introduction
 
 Mominter is a web3 video project with the aim of helping creators publish exciting video Moments as NFTs  and share them easily while owning their content and possibly making money from it. This project intends to build a web3 Momnet Gallery for everyone around the globe. Users can use the Huddle01 video streaming to record presentation and mint them while storing the Video files on IPFS and Metadata on Filecoin Blockchain. 
-Contents can also be streamed live through Huddle01 Live Presentation SDK streams. We use the open zeppelin ERC721 standard, Files are store to IPFS / Filecoin using NFT.Storage and  file metadata URI stored on Filecoin Hyperspace Testnet which is FEVM . Upon retrieval, . Lighthouse was used to used for encryption and most important, the Access control of Light hoise was used to grant access to member with the membership NFT, Huddle for conference meeting and XMTP for chat and interaction.
+Contents can also be streamed live through Huddle01 Live Presentation SDK streams. We use the open zeppelin ERC721 standard, Files are store to IPFS / Filecoin using NFT.Storage and  file metadata URI stored on Filecoin HyperspaceBase Testnet. Upon retrieval, Lighthouse was used to used for encryption and most important, the Access control of Light hoise was used to grant access to member with the membership NFT, Huddle for conference meeting and XMTP for chat and interaction.
 
 ## Web 3.0 technologies Used
 
 Frontend: NextJS, postcss, tailwindcss, Theme
 
-Web3 technologies: LightHouse, Huddle01,  IPFS/filecoin, Livepeer (livepeer.js), Web3Modal,  Filecoin (Hyperspace), 
+Web3 technologies: LightHouse, Huddle01,  IPFS/filecoin, Livepeer (livepeer.js), Web3Modal,  Base Testnet, 
 Backend: Solidity, Node.js
 
-Blockchain deployed to:  Filecoin (Hyperspace) Testnet
+Blockchain deployed to:  Base Goerli Testnet
 
 ## Description
 
 This project was made using several technologies. The front-end was designed using a server-side-rendering javascript tech known as NextJS. the latest version of Next was used because of how fast it was to build the project.  IPFS / Filecoin's NFT.Storage was used to store user's video on their decentralized storage. videos of various news can be viewed on demand. They can share these Videos to anyone through a sharing mechansism that is easy to copy out the sharing IPFS URL. Huddle01 for video streaming ND CONFERENCE MEETING. Huddle01 was used for conference meeting.
 
-The smart contract uses ERC-721 specification to hold metadata URI, ethers.js was used to interact with the smart contract. The contract was deployed to Filecoin Hyperspace blockchain. The entire project demo was hosted to Vercel.
+The smart contract uses ERC-721 specification to hold metadata URI, ethers.js was used to interact with the smart contract. The contract was deployed to Base Testnet blockchain. The entire project demo was hosted to Vercel.
 
 ## Live DApp hosted on
 
-Live Dapp on Vercel: - <https://mominter.vercel.app/>
+Live Dapp on Vercel: - <https://mominterbase.vercel.app/>
 
 Deployed to Polygon Chain:
-  Filecoin (Hyperspace) Testnet deployed Address = "0x4e75D8F85ED40aA3f73fB751b1Dfa07DEFe09C94"
+  Base Testnet deployed Address = "0xEA9113F3DCAf50541092847095112E76Ba6ceC05"
 
-  <https://hyperspace.filfox.info/en/address/0x4e75D8F85ED40aA3f73fB751b1Dfa07DEFe09C94>
+  <https://base-goerli.blockscout.com/address/0xEA9113F3DCAf50541092847095112E76Ba6ceC05>
 
- Youtube video link: <https://youtu.be/kZvxCGMPci8>
+ Youtube video link: <https://youtu.be/OQpEU-Bzv1g>
 
 ## Getting Started
 
 First, run the development server:
 
 ```text
-clone the repo https://github.com/holyaustin/Mominter.git
+clone the repo https://github.com/holyaustin/Mominter-Base.git
 # next is to 
 npm install
 # then
@@ -57,7 +57,7 @@ Try running some of the following tasks:
 
 Fork this repo using
 
-git clone <https://github.com/holyaustin/Mominter.git>
+git clone <https://github.com/holyaustin/Mominter-Base.git>
 
 cd soldier-ant-colony
 
